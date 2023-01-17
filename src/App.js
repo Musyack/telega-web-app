@@ -14,7 +14,7 @@ const App = () => {
 
     return (
         <div className="App">
-          work
+          Матвей салам
             <button onClick={onClose}>закрыть</button>
         </div>
     );
