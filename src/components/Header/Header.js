@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css'
 import Button from "../Button/Button";
-import {useEffect} from "react";
+
 import {useTelegram} from "../../hooks/useTelegram";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
         <div className={'header'}>
-            <Button>Закрыть</Button>
+            <Button onClick={onClose}>Закрыть</Button>
             <span className={'username'}>{user.username}</span>
             <a href={'https://google.com'}>ссылка</a>
         </div>
