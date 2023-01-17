@@ -1,5 +1,6 @@
 import {useTelegram} from "./hooks/useTelegram";
 import {useEffect} from "react";
+import Header from "./components/Header/Header";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     return (
         <div className="App">
             <button onClick={onToogleButton}>toogle</button>
+            <Header/>
         </div>
     );
 };
