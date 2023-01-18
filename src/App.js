@@ -18,8 +18,8 @@ const App = () => {
 
             <Header/>
             <Routes>
-                <Route path={'/form'} element={<ProductList/>}/>
-                <Route index element={<Form/>}/>
+                <Route index element={<ProductList/>}/>
+                <Route path={'/form'} element={<Form/>}/>
             </Routes>
         </div>
     );
